@@ -558,6 +558,7 @@
       },
 
       onSelectSong (song) {
+        alert("kkkk")
         if (this.currentMusic === song) {
           this.toggle()
         } else {
